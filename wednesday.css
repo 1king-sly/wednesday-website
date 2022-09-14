@@ -33,6 +33,7 @@ body{
 .header .cn a:hover{
      background-color: orange;
      transition: .4s;
+     cursor: pointer;
 }
 .navbar{
      overflow:hidden;
@@ -53,7 +54,7 @@ body{
 }
 .search{
      width:330px;
-     float:left;
+     float:right;
      margin-left:270px;
 }
 
