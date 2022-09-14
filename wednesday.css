@@ -20,19 +20,22 @@ body{
 .header .cn{
      background-color:transparent;
      cursor:pointer;
+     border: none;
      
 
 }
 .header .cn a{
      text-decoration: none;
-     color: white;
+     color: black;
      overflow: hidden;
-     background-color:transparent
+     background-color:orange;
+     border:none;
+     font-weight: bold;
 
 }
 .header .cn a:hover{
-     background-color: orange;
-     transition: .4s;
+     background-color: white;
+     transition: .4s ease;
      cursor: pointer;
 }
 .navbar{
@@ -49,7 +52,7 @@ body{
 }
 .navbar a:hover{
      background-color:orange;
-     transition:.5s;
+     transition:.5s ease;
      cursor: pointer;
 }
 .search{
@@ -86,9 +89,17 @@ body{
      border-bottom-right-radius: 5px;
 
 }
+.search .btn:hover{
+     background-color: powderblue;
+     transition:0.4s ease;
+     cursor:pointer;
+}
 .btn:focus{
      outline: none;
 }
 .srch:focus{
      outline: none;
+}
+table{
+     color: white;
 }
