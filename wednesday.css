@@ -17,6 +17,15 @@ body{
      font-size: 30px;
 
 }
+.header .cn{
+     background: orange;
+     cursor:pointer;
+
+}
+.header.cn a{
+     text-decoration: none;
+
+}
 .navbar{
      overflow:hidden;
      background-color: transparent;
@@ -32,6 +41,44 @@ body{
 .navbar a:hover{
      background-color:orange;
      transition:.5s;
+     cursor: pointer;
+}
+.search{
+     width:330px;
+     float:left;
+     margin-left:270px;
 }
 
 
+.srch{
+     font-family: times New Roman;
+     width:200px;
+     height:40px;
+     background:Transparent;\border:1px solid orange;
+     margin-top:13px;
+     color:white;
+     border-right: none;
+     font-size: 16px;
+     float: left;
+     padding: 10px;
+     border-bottom-left-radius: 5px;
+     border-top-left-radius: 5px;
+}
+.btn{
+     width:100px;
+     height:40px;
+     background:orange;
+     border:2px solid orange;
+     margin-top: 13px;
+     color:white;
+     font-size:15px;
+     border-bottom-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+     outline: none;
+}
+.srch:focus{
+     outline: none;
+}
