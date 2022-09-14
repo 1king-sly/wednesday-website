@@ -1,0 +1,37 @@
+body{
+     background-image: url(trial.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     text-align: center;
+     background-position: relative;
+
+}
+.header{
+     padding:0px;
+     text-align:center;
+     background:transparent;
+     color:white;
+
+}
+.header h1{
+     font-size: 30px;
+
+}
+.navbar{
+     overflow:hidden;
+     background-color: transparent;
+}
+.navbar a{
+     float:left;
+     display:block;
+     color:white;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+}
+.navbar a:hover{
+     background-color:orange;
+     transition:.5s;
+}
+
+
