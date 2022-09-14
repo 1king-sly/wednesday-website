@@ -18,13 +18,21 @@ body{
 
 }
 .header .cn{
-     background: orange;
+     background-color:transparent;
      cursor:pointer;
+     
 
 }
-.header.cn a{
+.header .cn a{
      text-decoration: none;
+     color: white;
+     overflow: hidden;
+     background-color:transparent
 
+}
+.header .cn a:hover{
+     background-color: orange;
+     transition: .4s;
 }
 .navbar{
      overflow:hidden;
@@ -35,7 +43,7 @@ body{
      display:block;
      color:white;
      text-align: center;
-     padding: 14px;
+     padding: 12px;
      text-decoration: none;
 }
 .navbar a:hover{
@@ -54,7 +62,8 @@ body{
      font-family: times New Roman;
      width:200px;
      height:40px;
-     background:Transparent;\border:1px solid orange;
+     background:Transparent;
+     border:1px solid black;
      margin-top:13px;
      color:white;
      border-right: none;
