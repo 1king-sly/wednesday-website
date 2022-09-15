@@ -27,7 +27,6 @@ body{
 }
 .header .cn a{
      text-decoration: none;
-     color: black;
      overflow: hidden;
      background-color:orange;
      border:none;
@@ -42,6 +41,9 @@ body{
 .navbar{
      overflow:hidden;
      background-color: transparent;
+     margin-left: 420px;
+     margin-bottom: 20px;
+     margin-top: 10px;
 }
 .navbar a{
      float:left;
@@ -103,4 +105,28 @@ body{
 }
 table{
      color: white;
+     text-align: center;
+     margin-left: 450px;
+}
+.cn{
+     background-color:transparent;
+     color: white;
+     border:none;
+     font-size: 18px;
+     font-weight: bold;
+     
+}
+.cn a{
+     text-decoration:none;
+     border:none;
+     color: white;
+     display: block;
+     float: left;
+     padding: 16px;
+     text-align: center;
+}
+.cn a:hover{
+     cursor: pointer;
+    background-color:orange;
+    transition: 0.4s ease;
 }
