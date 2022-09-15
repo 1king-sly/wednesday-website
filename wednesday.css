@@ -128,5 +128,5 @@ table{
 .cn a:hover{
      cursor: pointer;
     background-color:orange;
-    transition: 0.4s ease;
+    transition: 0.5s ease;
 }
