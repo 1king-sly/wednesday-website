@@ -130,3 +130,40 @@ table{
     background-color:orange;
     transition: 0.5s ease;
 }
+@media (max-width:700px){
+     .navbar{
+          font-size: 18px;
+          display:block;
+          position: absolute;
+          height: 1000vh;
+          width: 200px;
+          margin: 20px;
+          text-align: center;
+          margin-left: 2px;
+          padding: 0%;
+     }
+          
+     .navbar a{
+          padding: 0%;
+          margin: 0%;
+          display:inline-block;
+          margin-bottom: 0%;
+          display:flex;
+          margin-right: px;
+     }
+     table{
+          text-align: center;
+          font-size: 20px;
+          margin: 200px;
+          width: 600px;
+          margin-left: 0%;
+          margin-top: 122px;      
+     }
+     .cn {
+          margin-top:0%;
+          padding-top:0%;
+
+     }
+     
+     
+}
