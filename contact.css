@@ -10,6 +10,7 @@ body{
     font-family: monotype corsiva;
     background-position: fixed;
     text-align: center;
+    
 
 
 }
@@ -45,6 +46,10 @@ form{
     margin-top: 18px;
     padding: 10px;
     cursor: pointer;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    margin-right: 30px;
 
 
 }

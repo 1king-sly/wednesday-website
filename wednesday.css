@@ -91,6 +91,7 @@ table{
      color: white;
      text-align: center;
      margin-left: 450px;
+     margin-top: 20px;
 }
 .cn{
      background-color:transparent;
@@ -114,45 +115,7 @@ table{
     background-color:orange;
     transition: 0.5s ease;
 }
-@media (max-width:700px){
-     .navbar{
-          font-size: 18px;
-          display:block;
-          position: absolute;
-          height: 1000vh;
-          width: 200px;
-          margin: 20px;
-          text-align: center;
-          margin-left: 2px;
-          padding: 0%;
-     }
-          
-     .navbar a{
-          padding: 0%;
-          margin: 3%;
-          display:inline-block;
-          margin-bottom: 0%;
-          display:flex;
-          text-align: center;
-     }
-     table{
-          text-align: center;
-          font-size: 20px;
-          margin: 200px;
-          width: 600px;
-          margin-left: 0%;
-          margin-top: 150px;
-          margin-bottom: 0%;      
-     }
-     .cn {
-          margin-top:0%;
-          padding-top:0%;
-          padding-left: 120px;
 
-     }
-     
-     
-}
 .btn{
      background-color: orange;
      border: none;
@@ -161,6 +124,8 @@ table{
      color: white;
      padding: 10px;
      cursor: pointer;
+     margin-top: 10px;
+     margin-bottom: 10px;
      
 }
 .btn:hover{
