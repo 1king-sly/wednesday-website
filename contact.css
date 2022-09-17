@@ -1,0 +1,56 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-image: url(trial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monotype corsiva;
+    background-position: fixed;
+    text-align: center;
+
+
+}
+.contact-box
+{
+    width: 500px;
+    color: white;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height:40px;
+    margin-top: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.textarea-field{
+    height: 230px;
+    padding-top: 10px;
+}
+.btn{
+    background-color: orange;
+    border: none;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    transition: 0.4s ease;
+    background-color: orangered;
+}
+   
+

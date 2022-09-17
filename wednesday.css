@@ -83,26 +83,7 @@ body{
      border-bottom-left-radius: 5px;
      border-top-left-radius: 5px;
 }
-.btn{
-     width:100px;
-     height:40px;
-     background:orange;
-     border:2px solid orange;
-     margin-top: 13px;
-     color:white;
-     font-size:15px;
-     border-bottom-right-radius: 5px;
-     border-bottom-right-radius: 5px;
 
-}
-.search .btn:hover{
-     background-color: powderblue;
-     transition:0.4s ease;
-     cursor:pointer;
-}
-.btn:focus{
-     outline: none;
-}
 .srch:focus{
      outline: none;
 }
@@ -171,4 +152,19 @@ table{
      }
      
      
+}
+.btn{
+     background-color: orange;
+     border: none;
+     text-decoration: none;
+     border-radius: 20px;
+     color: white;
+     padding: 10px;
+     cursor: pointer;
+     
+}
+.btn:hover{
+     background-color: orangered;
+     transition: 0.5s;
+     position: relative;
 }
