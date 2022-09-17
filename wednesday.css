@@ -18,6 +18,9 @@ body{
      font-size: 30px;
 
 }
+.header p{
+     font-size: px;
+}
 .header .cn{
      background-color:transparent;
      cursor:pointer;
